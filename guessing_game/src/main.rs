@@ -25,9 +25,9 @@ fn main() {
         // .except() function will cause program to crash and show message of failure
             // If not called - Rust will throw a warning telling you that a possible error hasn't been handeled
     io::stdin().read_line(&mut guess)
-        .expect("Failed to read line")
+        .expect("Failed to read line");
     
     // Print with placeholders
         // When you have multiple - Make sure they are in the correct order
-    println!("You Guessed: {}", guess)
+    println!("You Guessed: {}", guess);
 }
